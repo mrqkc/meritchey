@@ -9,5 +9,5 @@ package megansafe;
  * @author Megan
  */
 public interface InsideSafe {
-    
+    public String GetContents();
 }

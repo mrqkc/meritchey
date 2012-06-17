@@ -9,9 +9,14 @@ package megansafe;
  * @author Megan
  */
 public interface Lock {
-//    5 digit number to type in to unlock
-    public void unlock(int a, int b, int c, int d, int e);
-//    auto lock on door shutting
-    public void relock();
+
+//     comboLock 
+public boolean unlockCombo(int[] input);
+// padlock (keycard)
+public boolean unlockPadlock(int idNumber);
+//touchscreen
+public boolean UnlockTouch(String input);
+//relock
+public void relock();
     
 }
